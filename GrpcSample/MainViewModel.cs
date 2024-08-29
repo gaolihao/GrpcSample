@@ -4,7 +4,7 @@ using PropertyChanged;
 namespace GrpcSample;
 
 [AddINotifyPropertyChangedInterface]
-public partial class MainViewModel
+public partial class MainViewModel : IMainViewModel
 {
     public int MyProperty { get; set; } = 1;
 
